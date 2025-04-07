@@ -8,4 +8,5 @@ metadata:
 spec:
   type: Amazon Machine Image (AMI)
   lifecycle: subscribed
+  system: target
   owner: team-name
