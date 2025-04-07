@@ -1,12 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: example-service
-  description: A sample service description
+  name: Genymotion Cloud Car - Android Automotive OS 14.0 (arm64)
+  description: An Android Automotive emulator on EC2. With AWS APIs, you can build or extend your own solution on top of Genymotion. Embed it into your website or product to promote your application.
   tags:
-    - java
-    - service
+    - drivesphere
 spec:
-  type: service
-  lifecycle: production
+  type: Amazon Machine Image (AMI)
+  lifecycle: subscribed
   owner: team-name
