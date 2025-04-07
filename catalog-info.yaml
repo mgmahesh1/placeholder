@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-service
+  description: A sample service description
+  tags:
+    - java
+    - service
+spec:
+  type: service
+  lifecycle: production
+  owner: team-name
